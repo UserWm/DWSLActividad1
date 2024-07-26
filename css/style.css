@@ -114,7 +114,7 @@ Header{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px; /* Espacio entre el precio y el botón */
+    gap: 10px; 
 }
 
 .product-card .price {
@@ -137,4 +137,92 @@ Header{
 
 .cart-btn:hover {
     background-color: #c9302c;
+}
+
+#contactPage {
+    padding: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#contactMethods,
+#contactForm,
+#googleMap {
+    margin-bottom: 40px;
+}
+
+#contactMethods h2,
+#contactForm h2,
+#googleMap h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contact-icons a {
+    color: rgb(231, 16, 16);
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-icons a:hover {
+    text-decoration: underline;
+}
+
+#contactForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contactForm .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+
+#contactForm button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+#contactForm button:hover {
+    background-color: #c9302c;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+}
+
+.map-container iframe {
+    border: none;
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border-radius: 8px;
 }
