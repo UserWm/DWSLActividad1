@@ -260,12 +260,10 @@ Header{
 .about-card h2 {
     margin-top: 0;
     font-size: 1.5em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #c9302c;
     text-align: center;
 }
 
-.about-card p {
+.about-card p, h2, #paymentMethods {
     font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #c9302c;
