@@ -2,10 +2,12 @@ Body{
     background-color: rgb(248, 248, 243);
 }
 
+/*Header style*/
 Header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px 20px;
     background-color: #333;
     color: white;
@@ -69,6 +71,8 @@ Header{
     background-color: #c9302c;
 }
 
+
+/*Index style*/
 #mainContent {
     padding: 20px;
 }
@@ -139,6 +143,8 @@ Header{
     background-color: #c9302c;
 }
 
+
+/*Contact style*/
 #contactPage {
     padding: 20px;
     width: 80%;
@@ -225,4 +231,51 @@ Header{
     max-width: 600px;
     height: 450px;
     border-radius: 8px;
+}
+
+/*About Us style*/
+#aboutPage {
+    padding: 20px;
+}
+
+#aboutSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-card {
+    flex: 1;
+    background-color: #f9f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.about-card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c9302c;
+    text-align: center;
+}
+
+.about-card p {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c9302c;
+    line-height: 1.6;
+}
+
+#aboutSection .about-card:first-child {
+    max-width: 50%;
+}
+
+#aboutSection .about-card:last-child {
+    max-width: 50%;
 }
