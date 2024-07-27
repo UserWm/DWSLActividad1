@@ -1,0 +1,66 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+header .logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header .btn {
+  background-color: #ffc107;
+  border: none;
+  padding: 10px 20px;
+  color: #343a40;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#aboutPage h2,
+#aboutPage h3 {
+  color: #343a40;
+}
+
+#aboutPage p {
+  color: #555;
+}
+
+#paymentMethods ul {
+  list-style: none;
+  padding: 0;
+}
+
+#paymentMethods ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+#paymentMethods ul li i {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #007bff;
+}
+
+#artisansInfo p {
+  color: #555;
+}
