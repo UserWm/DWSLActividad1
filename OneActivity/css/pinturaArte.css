@@ -28,14 +28,6 @@ a.button:hover {
   transform: scale(1.05);
 }
 
-/* Estilo del encabezado */
-header {
-  text-align: center;
-  color: white;
-  background-size: cover;
-  padding: 5rem 0;
-}
-
 section {
   padding: 2rem 0;
 }
