@@ -2,32 +2,45 @@
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-  background-color: #a48a8aac;
-}
-
-header {
+header bg {
   text-align: center;
+  color: white;
+  background-size: cover;
+  padding: 5rem 0;
 }
 
-h1 {
-  font-size: 2.5em;
-  opacity: 0;
-  animation: fadeIn 6s forwards;
+section {
+  padding: 2rem 0;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 span {
-  opacity: 0;
-  animation: fadeIn 6s forwards;
+  color: white;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+p {
+  color: #4a4a4a;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.custom-icon-color i {
+  color: #000000;
 }
