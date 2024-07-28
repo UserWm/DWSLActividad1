@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hair Care</title>
+  </head>
+  <body>
+    <main>
+      <!-- Header -->
+      <header>
+        <nav>
+          <a href="#" class="logo__link">
+            <img class="logo__img" src="./img/logo.png" alt="store logo" />
+            <span class="logo__text"> Hair Care </span>
+          </a>
+          <label class="label__checkbox" for="checkbox"
+            ><i class="bi bi-list"></i
+          ></label>
+          <input id="checkbox" type="checkbox" class="nav__checkbox" />
+          <ul class="nav__list">
+            <li>
+              <a href="#">Home</a>
+              <div class="underline"></div>
+            </li>
+            <li>
+              <a href="#products">Products</a>
+              <div class="underline"></div>
+            </li>
+            <li>
+              <a href="#benefits">Benefits</a>
+              <div class="underline"></div>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+              <div class="underline"></div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__content__title">
+            We provide the best hair care services at affordable prices.
+          </h1>
+          <p class="hero__content__text">
+            Experience the ultimate in hair care with our expertly crafted
+            services tailored to meet your unique needs. From nourishing
+            treatments to stylish cuts, we use the finest products and
+            techniques to ensure your hair looks and feels its best. Join us and
+            discover a world where your hair's health and beauty are our top
+            priority, all at prices that won't break the bank.
+          </p>
+          <button class="btn">Discover more</button>
+        </div>
+        <img src="./img/hero.png" alt="" class="hero__img" />
+      </section>
+      <!-- Products -->
+      <section id="products" class="products flex">
+        <h2 class="products__title">Top Product and Treatments</h2>
+        <div class="products__container">
+          <div class="product__card">
+            <div class="product__card__container__img">
+              <img
+                class="product__card__img"
+                src="./img/producto1.jpeg"
+                alt="Product 1"
+              />
+            </div>
+            <div class="product__card__content flex">
+              <h3 class="product__card__content__title">
+                Natural Shine Shampoo
+              </h3>
+              <p class="product__card__content__text">
+                Our Natural Shine Shampoo is enriched with essential oils and
+                vitamins to give your hair a radiant glow.
+              </p>
+              <button class="btn">Learn More</button>
+            </div>
+          </div>
+
+          <div class="product__card">
+            <div class="product__card__container__img">
+              <img
+                class="product__card__img"
+                src="./img/producto2.jpg"
+                alt="Product 2"
+              />
+            </div>
+            <div class="product__card__content flex">
+              <h3 class="product__card__content__title">
+                Deep Nourishing Conditioner
+              </h3>
+              <p class="product__card__content__text">
+                This conditioner penetrates deep into your hair to provide
+                long-lasting moisture and strength.
+              </p>
+              <button class="btn">Learn More</button>
+            </div>
+          </div>
+
+          <div class="product__card">
+            <div class="product__card__container__img">
+              <img
+                class="product__card__img"
+                src="./img/tratamiento1.jpg"
+                alt="Treatment 1"
+              />
+            </div>
+            <div class="product__card__content flex">
+              <h3 class="product__card__content__title">
+                Keratin Hair Treatment
+              </h3>
+              <p class="product__card__content__text">
+                Smooth and straighten your hair with our professional keratin
+                treatment, designed to last up to three months.
+              </p>
+              <button class="btn">Learn More</button>
+            </div>
+          </div>
+
+          <div class="product__card">
+            <div class="product__card__container__img">
+              <img
+                class="product__card__img"
+                src="./img/tratamiento2.jpg"
+                alt="Treatment 2"
+              />
+            </div>
+            <div class="product__card__content flex">
+              <h3 class="product__card__content__title">
+                Revitalizing Scalp Therapy
+              </h3>
+              <p class="product__card__content__text">
+                Rejuvenate your scalp with our therapy that promotes healthy
+                hair growth and reduces scalp issues.
+              </p>
+              <button class="btn">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Benefits -->
+      <section id="benefits" class="benefits">
+        <h2 class="benefits__title">Benefits and Solutions</h2>
+        <p class="benefits__text">
+          Our products are designed to improve health and appearance of your
+          hair. Discover how they can help you get great hair stronger, shinier
+          and frizz-free.
+        </p>
+        <div class="benefits__container">
+          <div class="benefit__container__item flex">
+            <h3>Strengthening</h3>
+            <p>
+              Our products strengthen the roots of your hair, reducing fall and
+              promoting growth.
+            </p>
+            <button class="btn">See More</button>
+          </div>
+          <div class="benefit__container__item flex">
+            <h3>Glow</h3>
+            <p>
+              Formulated with natural ingredients, our products They restore
+              shine and softness to your hair.
+            </p>
+            <button class="btn">See More</button>
+          </div>
+          <div class="benefit__container__item flex">
+            <h3>Frizz Reduction</h3>
+            <p>
+              Eliminate frizz and keep your hair soft and manageable all day
+              with our anti-frizz solutions.
+            </p>
+            <button class="btn">See More</button>
+          </div>
+        </div>
+      </section>
+      <!-- bestResults -->
+      <section class="bestResults flex">
+        <h2 class="bestResults__title">Our Customers' Results</h2>
+        <p class="bestResults__text">
+          Discover the amazing transformations our clients have experienced with
+          our top-notch hair care services and products. See the difference for
+          yourself!
+        </p>
+        <div class="bestResults__container flex">
+          <div class="bestResults__container__grid">
+            <div class="col flex col-1">
+              <div class="item item-1"></div>
+              <div class="item item-2"></div>
+              <div class="item item-3"></div>
+            </div>
+            <div class="col flex col-2">
+              <div class="item item-1"></div>
+              <div class="item item-2"></div>
+              <div class="item item-3"></div>
+            </div>
+            <div class="col flex col-3">
+              <div class="item item-1"></div>
+              <div class="item item-2"></div>
+              <div class="item item-3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </body>
+</html>
