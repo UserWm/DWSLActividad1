@@ -618,3 +618,70 @@ nav .label__checkbox {
     left: 0;
   }
 }
+
+/* animations */
+
+@keyframes bg {
+  0% {
+    background-image: var(--result-img-1);
+  }
+  30% {
+    background-image: var(--result-img-1);
+  }
+  33% {
+    background-image: var(--result-img-2);
+  }
+  63% {
+    background-image: var(--result-img-2);
+  }
+  66% {
+    background-image: var(--result-img-3);
+  }
+  96% {
+    background-image: var(--result-img-3);
+  }
+  100% {
+    background-image: var(--result-img-1);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    clip-path: circle(0% at top left);
+  }
+  100% {
+    opacity: 1;
+    clip-path: circle(150% at top left);
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes textToRight {
+  0% {
+    transform: translateX(-1200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes animationScale {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
