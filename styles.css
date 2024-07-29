@@ -8,3 +8,26 @@ h1 {
     color: rgb(19, 220, 255);
     font-size: 80px;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-color: aquamarine;
+}
+
+.container div {
+    height: 370px;
+    width: 335px;
+    margin: 60px;
+    
+}
+
+button {
+    font-size: 14px;
+}
+
+p {
+    font-size: 20px;
+}
