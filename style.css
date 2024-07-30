@@ -471,7 +471,7 @@ nav .label__checkbox {
 
 .contact__container form fieldset {
   border: none;
-  padding: 20px;
+  padding: 15px;
   color: var(--text-secondary-color);
 }
 
@@ -493,7 +493,7 @@ nav .label__checkbox {
   cursor: pointer;
 }
 
-.contact__container form fieldset input {
+.contact__container form fieldset label .form__input {
   border: 1px solid white;
   grid-area: input;
   width: 100%;
@@ -501,6 +501,10 @@ nav .label__checkbox {
   padding: 0.7rem 1.5rem;
   background-color: transparent;
   color: var(--secondary-color);
+}
+
+.contact__container form fieldset label .textarea {
+  padding-top:1.3rem ;
 }
 
 .form__input:placeholder-shown {
@@ -526,6 +530,7 @@ nav .label__checkbox {
   border-radius: 0.4rem;
   transform: translateY(-50%) scale(0.7);
 }
+
 
 /* footer */
 .footer {
@@ -559,9 +564,14 @@ nav .label__checkbox {
 .footer__section__socialNetworks,
 .footer__section__blogs {
   list-style: none;
+  margin: 0 auto;
   text-align: left;
   animation: show ease-in;
   animation-timeline: view(90% auto);
+}
+
+.footer__section__socialNetworks {
+  text-align: center;
 }
 
 .footer__section__socialNetworks a {
@@ -580,6 +590,7 @@ nav .label__checkbox {
 }
 
 .footer__section__copy {
+  text-align: center;
   color: var(--text-secondary-color);
 }
 

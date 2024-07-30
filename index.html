@@ -15,6 +15,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/logo.png">
     <title>Hair Care</title>
   </head>
   <body>
@@ -344,6 +345,18 @@
               </label>
             </fieldset>
             <fieldset>
+              <label class="form__label">
+                <textarea
+                  class="form__input textarea"
+                  id="message"
+                  name="message"
+                  placeholder=" "
+                  required
+                ></textarea>
+                <span class="form__text">Your message</span>
+              </label>
+            </fieldset>
+            <fieldset>
               <div class="form__conditions">
                 <label for="terms">
                   <input type="checkbox" id="terms" name="terms" required />
@@ -372,9 +385,11 @@
                 <a href="#"><i class="bi bi-instagram"></i></a>
                 <a href="#"><i class="bi bi-linkedin"></i></a>
               </ul>
+              <h5>Address</h5>
+              <p>4a Calle Pte. hacia 11a Avenida Norte. San Miguel</p>
             </div>
             <div>
-              <h5>Our Blog</h5>
+              <h5>Our Blogs</h5>
               <ul class="footer__section__blogs flex">
                 <li>
                   <a href="#">Latest Posts</a>
@@ -396,7 +411,8 @@
             </div>
           </div>
           <div class="footer__section__copy">
-            <p>&copy; 2024 Your Company Name. All Rights Reserved.</p>
+            <img src="./img/payment.png" alt="payment methods">
+            <p>&copy; 2024 Hair Care. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
