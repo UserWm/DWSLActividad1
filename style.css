@@ -168,13 +168,13 @@ body {
 
 .products {
     padding: 2rem 0;
-    background:  #c4bdbd;
+    background:  #c4bdc4;
     text-align: center;
 }
-
-.products h3 {
+/*nm produc*/
+.products h1 {
     margin-bottom: 1rem;
-    color: #000000;
+    color:  #000000;
 }
 
 .product-list {
@@ -212,8 +212,22 @@ body {
 
 .price {
     font-size: 1.1rem;
-    color: #f30a35;
+    color: #030303;
     font-weight: bold;
+}
+/*btn de compra*/
+.button {
+    background-color:  #ca1b73;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer; /*cmb cursor*/
+    border-radius: 5px;
+}
+/*cursor sbr btn*/
+.button:hover {
+    background-color: #af0e7a;
 }
 
 /*** Ubicacion ****/
