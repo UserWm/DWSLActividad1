@@ -1,0 +1,16 @@
+.welcome-section{
+    height: 53rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section{
+    background: url(../img/welcome-wallpaper.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.welcome-section h1{
+    font-weight: bold;
+}
