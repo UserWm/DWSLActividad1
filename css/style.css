@@ -126,3 +126,69 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+#contactMethods, #contactForm, #googleMap {
+    margin-bottom: 20px;
+}
+
+#contactMethods h2, #contactForm h2, #googleMap h2 {
+    margin-bottom: 10px;
+}
+
+.contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contact-icons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #e4e4e4;
+    font-size: 1.1em;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #797979;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact-icons a:hover {
+    background-color: #707070;
+    transform: translateY(-5px);
+}
+
+.contact-icons i {
+    margin-right: 8px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.map-container {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    overflow: hidden;
+}
