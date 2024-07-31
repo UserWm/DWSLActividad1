@@ -344,3 +344,37 @@ input, textarea {
 .checkout:hover {
     background-color: #555;
 }
+
+.payment-methods {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.payment-methods i {
+    font-size: 2em;
+    transition: transform 0.3s;
+}
+
+.payment-methods .visa-icon {
+    color: #1a1f71;
+}
+
+.payment-methods .mastercard-icon {
+    color: #ff5f00;
+}
+
+.payment-methods .paypal-icon {
+    color: #003087;
+}
+
+.payment-methods .amex-icon {
+    color: #2e77bb;
+}
+
+.payment-methods i:hover {
+    transform: translateY(-5px);
+    color: #555;
+}
