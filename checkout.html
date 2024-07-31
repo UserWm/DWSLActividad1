@@ -48,22 +48,38 @@
             <div class="cart-summary">
                 <h3>Resumen del Pedido</h3>
                 <p>Total: $69.97</p>
-                <button class="checkout">Proceder al Pago</button>
             </div>
-            <br>
-            <hr>
-            <br>
-            <h3>Métodos de Pago</h3>
+            <h3>Seleccione el metodo de Pago</h3>
             <div class="payment-methods">
-                <i class="fab fa-cc-visa visa-icon" aria-hidden="true" title="Visa"></i>
-                <i class="fab fa-cc-mastercard mastercard-icon" aria-hidden="true" title="Mastercard"></i>
-                <i class="fab fa-cc-paypal paypal-icon" aria-hidden="true" title="PayPal"></i>
-                <i class="fab fa-cc-amex amex-icon" aria-hidden="true" title="American Express"></i>
+                <button class="payment-button visa-button" data-method="Visa" aria-label="Visa">
+                    <i class="fab fa-cc-visa"></i>
+                </button>
+                <button class="payment-button mastercard-button" data-method="Mastercard" aria-label="Mastercard">
+                    <i class="fab fa-cc-mastercard"></i>
+                </button>
+                <button class="payment-button paypal-button" data-method="PayPal" aria-label="PayPal">
+                    <i class="fab fa-cc-paypal"></i>
+                </button>
+                <button class="payment-button amex-button" data-method="American Express" aria-label="American Express">
+                    <i class="fab fa-cc-amex"></i>
+                </button>
+            </div>
+
+            <div id="payment-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 id="payment-method-title"></h2>
+                    <p>¿Desea proceder con el pago utilizando <span id="payment-method-name"></span>?</p>
+                    <br>
+                    <button id="confirm-payment">Confirmar Pago</button>
+                </div>
             </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 kruesports. Todos los derechos reservados.</p>
     </footer>
+
+    <script src="/js/modal.js"></script>
 </body>
 </html>
