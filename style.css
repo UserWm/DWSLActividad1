@@ -1,2 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #c4bdbd;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*** Inicio  **/
+.header {
+    background: #070000;
+    color: #fff;
+    padding: 1rem 0;
+    
+}
+
+/*Posicion lg*/
+.header .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Tamaño logo*/
+.header .logo {
+    max-height: 100px;
+    margin-right: 20px;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+/*Menú*/
+.nav ul {
+    list-style: none;
+    text-align: center;
+    font-size:mediumlo;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*txt-cursor*/
+.nav ul li a:hover,
+.nav ul li a.active {
+    background:   #ca1b73;
+    color: #fff;
+    
+}
+
+/*Inicio*/
+#hero {
+    background-image: url('img/hd.jpg'); /*Fondo prnc*/
+    background-size: cover; /*1vz img*/
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 10em 1em;
+}
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin: 0 0 0.5em 0;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin: 0 0 1em 0;
+}
+
+.cta-button {
+    background-color: #ca1b73;
+    color: white;
+    padding: 0.8em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #790643;
+    color: white;
+
+
+}
 
