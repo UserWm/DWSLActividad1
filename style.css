@@ -108,3 +108,239 @@ body {
 
 }
 
+/*** Servicios ***/
+.servicios {
+    padding: 4rem 0;
+    background: #ffffff;
+    text-align: center;
+}
+
+.servicios h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.servicios .servicios-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap; /*En una linea*/
+}
+
+
+.card {
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.card p {
+    padding: 0 1rem 1rem;
+    font-size: 1rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/**** Productos ****/
+
+.products {
+    padding: 2rem 0;
+    background:  #c4bdbd;
+    text-align: center;
+}
+
+.products h3 {
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.product-item {
+    background: #fdfafa;
+    width: 250px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-info {
+    padding: 1rem;
+}
+
+.product-info h3 {
+    font-size: 1.4rem;
+}
+
+.product-info p {
+    font-size: 1rem;
+    color: #070707;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    font-size: 1.1rem;
+    color: #f30a35;
+    font-weight: bold;
+}
+
+
+/*** Ubicacion ****/
+.ubicacion{
+    padding: 4rem 0;
+    text-align: center;
+    background: #f9f9f9;
+    
+}
+
+.ubicacion h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.ubicacion address {
+    font-style: normal;
+    line-height: 1.6;
+}
+
+.ubicacion a {
+    color: #f4a4b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ubicacion a:hover {
+    text-decoration: underline;
+}
+
+
+.inicio, .servicios, .productos, .ubicacion, .reservacion {
+    padding: 2rem 0;
+}
+
+/*Encabezado Reseracion*/
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/*Reservacion*/
+.reservacion form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservacion form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.reservacion form input, .reservacion form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.reservacion form button {
+    background:  #ca1b73;;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reservacion form button:hover {
+    background: #ce036f;
+    color: #fff;
+
+}
+
+/*** Footer ***/
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+}
+
+.footer h5 {
+    font-size: 1rem;
+    
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+/*Redes Sociales */
+.social-media ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-media ul li {
+    margin: 10px;
+}
+
+.social-media ul li img {
+    width: 25px;
+    height: 25px;
+}
+
+/*cursor sbr img*/
+.social-media ul li img:hover {
+    transform: scale(1.2);
+}
+
+.ubicacion #map {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+
