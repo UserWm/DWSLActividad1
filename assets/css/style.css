@@ -903,3 +903,36 @@ img {
         right: 3rem;
     }
 }
+
+.mapp {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.map__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+.map__iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .map__iframe {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .map__iframe {
+        height: 250px;
+    }
+}
